@@ -32,8 +32,6 @@ LOG_FN_ENTER();
         maybe_change_ft(tree_it_val(bit));
     }
 
-    YEXE("plugin-load", "lang/syntax/jgraph");
-
 LOG_EXIT();
     return 0;
 }
