@@ -36,9 +36,7 @@ LOG_EXIT();
     return 0;
 }
 
-void unload(yed_plugin *self) {
-    YEXE("plugin-unload", "lang/syntax/jgraph");
-}
+void unload(yed_plugin *self) {}
 
 void maybe_change_ft(yed_buffer *buff) {
     char *ext;
